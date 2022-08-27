@@ -16,11 +16,11 @@ public class GenericsMain extends MaximumGenerics {
 	 */
 	public static void main(String[] args) {
 		System.out.println("Maximum of three number");
-		System.out.println("Enter 3 numbers: ");
-		// Taking 3 numbers from user
-		Integer x = scanner.nextInt();
-		Integer y = scanner.nextInt();
-		Integer z = scanner.nextInt();
-		System.out.println("Maximum is  " + maximum(x, y, z));
+		System.out.println("Enter 3 Float values");
+		// Taking 3 Float values from user
+		Float x = scanner.nextFloat();
+		Float y = scanner.nextFloat();
+		Float z = scanner.nextFloat();
+		System.out.println("Max: " + maxfloat(x, y, z));
 	}
 }
