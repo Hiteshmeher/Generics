@@ -6,6 +6,16 @@ package com.bridgelabz.generics;
  *
  */
 public class MaximumGenerics<T extends Comparable<T>> {
+	T x;
+	T y;
+	T z;
+	// Generate Constructors
+	public MaximumGenerics(T x, T y, T z) {
+		super();
+		this.x = x;
+		this.y = y;
+		this.z = z;
+	}
 	/**
 	 * 
 	 * @param <T>
